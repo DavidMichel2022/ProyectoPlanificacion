@@ -36,6 +36,8 @@ namespace SistemaPlanificacion.IOC
             services.AddScoped<IUsuarioService, UsuarioService>();
 
             services.AddScoped<IEmpresaService, EmpresaService>();
+
+            services.AddScoped<ICentroSaludService, CentroSaludService>();
         }
     }
 }
